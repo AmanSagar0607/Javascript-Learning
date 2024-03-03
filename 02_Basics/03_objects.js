@@ -12,7 +12,7 @@ const mySym = Symbol("key1")
 const JsUser = {
     name: "Aman",
     "full name": " Aman Sagar",
-    [mySym]:"myKey1", // otput [Symbol(key1)]: 'myKey1' //[] is used for sccess symbol ohterwise without [] it shows string
+    [mySym]:"myKey1", // output [Symbol(key1)]: 'myKey1' //[] is used for sccess symbol otherwise without [] it shows string
     age: 20,
     email: "amansagar0307@gmail.com",
 }

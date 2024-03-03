@@ -13,7 +13,7 @@ const DcHeros = ["SuperMan", "BatMan", "AquaMan"]
 const allHeros = [...marvelHeros, ...DcHeros] //spread operator used 
 console.log(allHeros); // [ 'Thor', 'IronMan', 'SpiderMan', 'SuperMan', 'BatMan', 'AquaMan' ]
 
-//Flat operator ised to merge multiple arrays into one
+//Flat operator used to merge multiple arrays into one
 // const anotherArray = [1,2,3,[4,5,6,[7,8,9,10,[11]]]];
 const anotherArray = [1, 2, 3, [4, 5, 6, [7, 8, 9, 10, [11]]]];
 
