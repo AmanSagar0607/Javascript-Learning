@@ -1,6 +1,6 @@
+var accountPassword = "12aa545" // can  be deaclare and change again // variable declared are available throughout the function in which they are declared
 const accountId = 14458 //can not be deaclare and change again
 let accountEmail = "randommail@gmail.com" // can be declared and change again // variable declared are only available inside the block where they are defined
-var accountPassword = "12aa545" // can  be deaclare and change again // variable declared are available throughout the function in which they are declared
 accountCity = "jaipur" // We can declare using this type but is not good code writing
 let accountStatus; // undeclared
 

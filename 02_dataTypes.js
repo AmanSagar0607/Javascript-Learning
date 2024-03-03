@@ -21,5 +21,5 @@ let age = 20
 //object
 
 console.log(typeof age); // number
-console.log(typeof null); // object
+console.log(typeof null); // object // non primitive data type
 console.log(typeof undefined); // undefined
