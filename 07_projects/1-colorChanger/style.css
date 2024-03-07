@@ -1,0 +1,60 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+.Container {
+  /* background-color: aqua; */
+  /* width: 100vh;
+    height: 100vh; */
+  text-align: center;
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+h1 {
+  margin: 10px auto;
+}
+
+p {
+  margin-bottom: 20px;
+}
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  margin: 5px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+span {
+  display: block;
+}
+
+#grey {
+  background-color: grey;
+}
+#red {
+  background-color: red;
+}
+#orange {
+  background-color: orange;
+}
+#white {
+  background-color: white;
+}
+#purple {
+  background-color: purple;
+}
+#blue {
+  background-color: blue;
+}

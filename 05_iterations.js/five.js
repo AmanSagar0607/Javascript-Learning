@@ -1,3 +1,6 @@
+// For Each 
+// ye call back karta he
+
 // const programming = ["js", "cpp", "py"]
 
 // programming.forEach (function  (item) {
@@ -28,4 +31,17 @@ const programming = [
 
 programming.forEach( (item) => {
     console.log(item.languagefileName);
+})
+
+const heros = [
+    {
+        heroname: "superman",
+        power: "superStrength",
+
+    },
+]
+
+//For each
+heros.forEach ( (item) =>{
+    console.log(item.power)
 })

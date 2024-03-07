@@ -7,17 +7,17 @@
 // }
 
 
-// const myObject = {
-//     js: 'javascript',
-//     cpp: 'c++',
-//     py: 'python',
-// }
+const myObject = {
+    js: 'javascript',
+    cpp: 'c++',
+    py: 'python',
+}
 
 
 
-// for (const key in myObject) {
-//     console.log(`${key} is shortcut for ${myObject[key]}`)
-// }
+for (const key in myObject) {
+    console.log(`${key} is shortcut for ${myObject[key]}`)
+}
 
 const programming = ["js", "cpp", "py"]
 
