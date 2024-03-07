@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Javascript</title>
+</head>
+<body>
+        <ul class="language">
+            <li>javascript</li>
+        </ul>
+</body>
+<script>
+
+//not good for very big projects
+    function addlang(langName){
+      const li =   document.createElement('li');
+      li.innerHTML = `${langName}`
+      document.querySelector('.language').appendChild(li)
+    }
+
+    addlang("python")
+    addlang("python")
+// we should use optimized function for it
+function  optimizedAddLang(langName){
+    const li = document.createElement('li');
+    li.appendChild(document.createTextNode(langName));
+    document.querySelector('.language').appendChild(li);
+}
+
+optimizedAddLang("c++");
+
+
+//Edit
+const secondLang = document.querySelector("li:nth-chid(2)")
+const newli = document.createElement('li')
+newli.textContent = "mojo"
+secondLang.replaceWith(newli)
+
+//edit
+const firstLang = document.querySelector("li:first-child")
+firstLang.outerHTML = '<li>Typescript</li>'
+    
+</script>
+</html>
