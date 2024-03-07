@@ -26,6 +26,10 @@ const programming = [
     languageName: " python",
     languagefileName: "py",
     },
+    {
+    languageName: "golang",
+    languagefileName: "go",
+    },
 ]
 
 
