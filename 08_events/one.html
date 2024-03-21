@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body style="background-color: #414144; color: white;">
+  <h2>Amazing Image</h2>
+  <div>
+    <ul id="images">
+      <li> <img width="200px" id="dog"src="../assets/images/dog.jpg" alt="Dog">  </li>
+      <li>  <img width="200px" id="person"src="../assets/images/person.jpg" alt="Person">  </li>
+      <li> <img width="200px" id="mountain"src="../assets/images/mountain.jpg" alt="Mountain">  </li>
+      <li> <img width="200px" id="forest"src="../assets/images/forest.jpg" alt="Forest">  </li>
+      <li> <a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
+    </ul>
+  </div>
+</body>
+<script>
+  // document.getElementById('dog').onclick = function(){
+  //   alert("A black Cute Dog") //it gives less features we should not use it always
+  // }
+
+  //attachEvent() - early time 
+  //Jquery - OnEeventListener
+  //Types of - leyboard, mouse, vent
+  //target, toElement , srcElement, currentElement
+  // clientx, clientY, screenX, screenY
+  // altKey, shiftKey, ctrlKey, keycode
+
+  //Here we use addEventListener which is a modern approach
+  // document.getElementById('images').addEventListener('click', function(e){
+  //   console.log("clicked inside the ul")
+  // }, true ) // <== Event Propagation
+
+  // document.getElementById('person').addEventListener('click', function(e){
+  //   console.log("Person clicked ")
+  // }, true )
+
+  // document.getElementById('person').addEventListener('click', function(e){
+  //   e.stopPropagation
+  // }, false )
+
+
+  //fasle Event Propagation used for bubble event
+  // true Event Propagation used for capturing event
+
+  //Event Propagation : therse are two context of event propagation (1) Event Bubbling, (2) event Capturing
+
+  // document.getElementById('google').addEventListener('click', function (e) {
+    // console.log("stopping clicked")
+  //   e.preventDefault()
+  //   e.stopPropagation()
+  // }, false)
+
+   document.querySelector('#images').addEventListener('click', function(e){
+    console.log(e.target.tagName);
+    if (e.target.tagName === 'IMG') {
+      console.log(e.target.id)
+      let removeIt = e.target.parentNode
+    removeIt.remove()
+    }
+  
+  
+  // removeIt.parentNode.removeChild(removeIt)
+   }, false)
+
+</script>
+</html>
