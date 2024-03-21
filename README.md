@@ -30,3 +30,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Repository Link
 
 You can find the repository [here](https://github.com/AmanSagar0607/Javascript-Learning).
+follow me on [linkedin](https://www.linkedin.com/in/amansagar0607/)
