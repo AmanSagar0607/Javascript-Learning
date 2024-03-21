@@ -11,6 +11,8 @@ This repository is dedicated to learning and practicing JavaScript fundamentals.
 - **05_iterations.js:** Includes files for understanding iterations in JavaScript.
 - **06_dom:** Contains files related to DOM manipulation.
 - **07_projects:** Includes JavaScript projects for hands-on practice.
+- **07_events:** contains files related to learning events.
+- **assets:** some random images.
 
 ## Contributing
 
