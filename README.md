@@ -26,7 +26,6 @@ Contributions are welcome! If you'd like to contribute to this repository, pleas
 6. Create a new Pull Request.
 
 ## License
-
 This project is licensed under the [MIT License](LICENSE).
 
 ## Repository Link
