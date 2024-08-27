@@ -1,4 +1,4 @@
-# Javascript Learning
+# Javascript-Learning
 
 This repository is dedicated to learning and practicing JavaScript fundamentals. It covers various topics including basics, control flow, iterations, DOM manipulation, and projects. 
 
